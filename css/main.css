@@ -1,0 +1,94 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+
+}
+.hidden {
+	display: none;
+
+}
+.carousel img {
+	width: 100%;
+	height: auto;
+
+}
+.parallax {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	position: relative;
+
+}
+header {
+	background-image: url(..//img/0WsAzbw0RFc.jpg);
+	background-repeat: repeat-x;
+	background-position: top center;
+	position: relative;
+	min-height: 644px;
+	font-size: "BebasRegular";
+}
+ header a{
+	 color: #fff;
+ }
+.top_line {
+	min-height: 97px;
+	-webkit-box-shadow: rgba(255, 255, 255,.3) 0 0 0 1px;
+	box-shadow: rgba(255, 255, 255,.3)0 0 0 1px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background-color: rgba(0,0,0,.6);
+}
+
+.top_addr {
+	padding-left: 60px;
+	background-image: url(..//img);
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+
+.top_addr strong {
+	color: #d12f22;
+	display: block;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: "BebasRegular";
+	font-size: 31px;
+}
+.top_addr a{
+	font-size: 21px;
+	border-bottom: #fff dashed 1px;
+}
