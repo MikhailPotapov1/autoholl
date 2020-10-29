@@ -74,10 +74,10 @@ header {
 
 .top_addr {
 	padding-left: 60px;
-	background-image: url(..//img);
+	background-image: url(../img/ewe.jpg);
 	background-repeat: no-repeat;
-	background-position: center left;
 }
+	
 
 .top_addr strong {
 	color: #d12f22;
