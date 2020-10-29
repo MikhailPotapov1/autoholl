@@ -70,14 +70,26 @@ header {
 	top: 0;
 	width: 100%;
 	background-color: rgba(0,0,0,.6);
+	padding: 22px 0;
 }
-
+ .top_line a{
+	font-size: 21px;
+	border-bottom: #fff dashed 1px;
+	transform: ;
+}
+.top_line a:hover{
+	border-bottom: transparent 1px dashed;
+}
 .top_addr {
 	padding-left: 60px;
-	background-image: url(../img/ewe.jpg);
+	background-image: url(../img/topwe.png);
 	background-repeat: no-repeat;
-}
+	background-position: top left;
+	font-family: "Bebasbold";
+	line-height: 36px;
+	padding-left: 60px;
 	
+}
 
 .top_addr strong {
 	color: #d12f22;
