@@ -133,3 +133,12 @@ header {
 	text-shadow: 0 3px rgba(0, 0, 0, 0.55);
 
 }
+.button {
+	background-color: #d12f22;
+	display: inline-block;
+	font-size: 20px;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 25px;
+	vertical-align: middle;
+}
