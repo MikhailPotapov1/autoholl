@@ -137,8 +137,44 @@ header {
 	background-color: #d12f22;
 	display: inline-block;
 	font-size: 20px;
-	height: 50px;
+	height: 55px;
 	line-height: 50px;
 	padding: 0 25px;
 	vertical-align: middle;
+	border-bottom: #AC160A 5px solid;
+}
+.button:hover {
+	background-color: #e64437;
+}
+.button:active {
+	background-color: #b81609;
+}
+header .button {
+	margin-right: 18px;
+}
+.st_button {
+	background-image: url(../img/Слой\ c\ gb\ .png);
+	background-position: 8px 8px;
+	background-repeat: no-repeat;
+	line-height: 20px;
+	padding-left: 67px;
+	padding-top: 7px;
+	text-align: left;
+}
+.buttons_top {
+	bottom: 302px;
+	position: absolute;
+	width: 100%;
+}
+.top_mnu {
+	height: 68px;
+	background-color: #242424;
+	-webkit-box-shadow: rgba(255, 255, 255,.3) 0 0 0 1px;
+	box-shadow: rgba(255, 255, 255,.3)0 0 0 1px;
+}
+.top_mnu {
+	margin: 0;
+	padding: 0px;
+	list-style-type: none;
+	S
 }
