@@ -56,7 +56,7 @@ header {
 	background-repeat: repeat-x;
 	background-position: top center;
 	position: relative;
-	min-height: 972px;
+	min-height: 700px;
 	font-size: "BebasRegular";
 }
  header a{
@@ -162,19 +162,57 @@ header .button {
 	text-align: left;
 }
 .buttons_top {
-	bottom: 302px;
+	bottom: 32px;
 	position: absolute;
 	width: 100%;
 }
-.top_mnu {
-	height: 68px;
+nav {
+	height: 62px;
 	background-color: #242424;
 	-webkit-box-shadow: rgba(255, 255, 255,.3) 0 0 0 1px;
 	box-shadow: rgba(255, 255, 255,.3)0 0 0 1px;
+	text-transform: uppercase;
+	
 }
-.top_mnu {
+nav ul {
 	margin: 0;
-	padding: 0px;
+	padding: 0;
 	list-style-type: none;
-	S
+	color: #fff;
+	font-family:  "bebasregular";
+	font-size: 20px;
+	display: block;
+	line-height: 62px;
+}
+.top_mnu li {
+	display: inline-block;
+
+}
+.a {
+	padding: 0 26px 40px;
+	border-left: 1px solid #383838;
+}
+.list a {
+	padding: 19px;
+}
+
+
+.main_cats {
+	background-color: #191919;
+	padding: 40px 0 32px;
+}
+.main_cats h2{
+	text-transform: uppercase;
+	color: #c9c9c9;
+	font-family: "BebasRegular";
+	font-size: 40px;
+	text-align: center;
+}
+.main_cats h2 strong {
+	color: #fff;
+
+}
+.main_cats h2 span {
+	color: #d12f22;
+	
 }
