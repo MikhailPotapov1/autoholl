@@ -166,34 +166,37 @@ header .button {
 	position: absolute;
 	width: 100%;
 }
-nav {
+.top_mnu {
 	height: 62px;
 	background-color: #242424;
 	-webkit-box-shadow: rgba(255, 255, 255,.3) 0 0 0 1px;
 	box-shadow: rgba(255, 255, 255,.3)0 0 0 1px;
+	font-family: "bebasregular";
 	text-transform: uppercase;
+	color: #fff;
+	font-size: 20px;
+	padding: 0 26px;
+	display: block;
+	line-height: 62px;
+
 	
 }
-nav ul {
+.top_mnu ul {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
-	color: #fff;
-	font-family:  "bebasregular";
-	font-size: 20px;
-	display: block;
-	line-height: 62px;
 }
+
+.top_mnu a {
+	font-size: 20px;
+	padding: 0 26px;
+	
+}
+
 .top_mnu li {
 	display: inline-block;
+	border-left: #383838 1px solid;
 
-}
-.a {
-	padding: 0 26px 40px;
-	border-left: 1px solid #383838;
-}
-.list a {
-	padding: 19px;
 }
 
 
@@ -215,4 +218,56 @@ nav ul {
 .main_cats h2 span {
 	color: #d12f22;
 	
+}
+section h2 {
+	position: relative;
+}
+.s_black h2::before {
+	content:;
+	position: absolute;
+	width: 50px;
+	height: 20px;
+	background-image: url(..//img);
+}
+
+.mc_item{
+	border: 1px solid #353535;
+	border-radius: 2px;
+}
+.mc_item_wrap {
+	margin-left: 30px;
+	width: 156px;
+	display: inline-block;
+	text-align: center;
+}
+.mc_wrap {
+	text-align: center;
+	padding: 0;
+}
+.mc_item_wrap a {
+	color: #fff;
+}
+.mc_item_wrap span {
+	display: block;
+	height: 85px;
+	width: 130px;
+	background-image: url(../img/2343.png);
+	background-repeat: no-repeat;
+	margin: 10px auto;
+	background-position: center ;
+}
+.mc_item_wrap:nth-child(2) span {
+	background-image: url(..//img/Слой\ 20.png);
+}
+.mc_item_wrap:nth-child(3) span {
+	background-image: url(..//img/Слой\ 22.png);
+}
+.mc_item_wrap:nth-child(4) span {
+	background-image: url(..//img/Слой\ 23.png);
+}
+.mc_item_wrap:nth-child(5) span {
+	background-image: url(..//img/Слой\ 24.png);
+}
+.mc_item_wrap:nth-child(6) span {
+	background-image: url(..//img/Прямоугольник\ 7.png);
 }
