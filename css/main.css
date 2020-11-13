@@ -240,9 +240,17 @@ section h2 {
 	display: inline-block;
 	text-align: center;
 }
+.mc_item h4 {
+	font-weight: normal;
+	font-family: "bebasbold";
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 .mc_wrap {
 	text-align: center;
 	padding: 0;
+	position: relative;
 }
 .mc_item_wrap a {
 	color: #fff;
@@ -253,7 +261,7 @@ section h2 {
 	width: 130px;
 	background-image: url(../img/2343.png);
 	background-repeat: no-repeat;
-	margin: 10px auto;
+	margin: 15px auto 10px;
 	background-position: center ;
 }
 .mc_item_wrap:nth-child(2) span {
@@ -270,4 +278,60 @@ section h2 {
 }
 .mc_item_wrap:nth-child(6) span {
 	background-image: url(..//img/Прямоугольник\ 7.png);
+}
+.mc_item a:hover h4,
+.mc_item_wrap.active h4{
+	text-decoration: underline;
+}
+.mc_item_wrap.active,
+.mc_item_wrap:hover {
+	background-color: #2A2A2A;;
+}
+.mc_toggle {
+	background-color: #212121;
+	position: relative;
+	height: 25px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+.mc_toggle:nth-child(2) {
+	background-image: url(..//img/кпу_.png);
+}
+
+.mc_item_wrap.active .mc_toggle ,
+.mc_item_wrap:hover .mc_toggle {
+	background-color: #353535;
+	background-image: url(..//img/123_.png);
+}
+.mc_item_wrap.active ul {
+	position: absolute;
+	width: 100%;
+}
+.mc_item_wrap.active ul li {
+	display: inline-block;
+	font-family: "bebasregular";
+}
+.mc_item_wrap.active ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.mc_item_wrap.active ul li a {
+	padding: 0 15px;
+	text-decoration: underline;
+}
+body .mc_wrap .mc_item_wrap ul {
+	background-color: #353535;
+	font-size: 20px;
+	margin-top: 25px;
+	position: absolute;
+	width: 100%;
+	padding: 15px 0;
+	z-index: 10;
+	display: none;
+}
+.mc_item_wrap.active ul li a:hover {
+	text-decoration: none;
 }
