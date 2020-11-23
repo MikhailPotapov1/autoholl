@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	$(".mc_toggle").click(function() {
-		$(this).parent().parent().children("ul").slideToggle();
+		$(this).parent().parent().children("ul").slidetoggle();
 	});
 
 	//Цели для Яндекс.Метрики и Google Analytics

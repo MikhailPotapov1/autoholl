@@ -73,7 +73,6 @@ header {
  .top_line a{
 	font-size: 21px;
 	border-bottom: #fff dashed 1px;
-	transform: ;
 }
 .top_line a:hover{
 	border-bottom: transparent 1px dashed;
@@ -223,11 +222,11 @@ section h2 {
 	position: relative;
 }
 .s_black h2::before {
-	content:;
+	content:"";
 	position: absolute;
 	width: 50px;
 	height: 20px;
-	background-image: url(..//img);
+	background-image: url(..//img/);
 }
 
 .mc_item{
@@ -334,4 +333,14 @@ body .mc_wrap .mc_item_wrap ul {
 }
 .mc_item_wrap.active ul li a:hover {
 	text-decoration: none;
+}
+.mc_item_wrap::after {
+	background-image: url(..//img/Слой\ 0.png);
+	background-repeat: no-repeat;
+	content: "";
+	height: 11px;
+	width: 21px;
+	position: absolute;
+	background-position: center;
+	width: 21px -10px
 }
