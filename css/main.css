@@ -73,7 +73,6 @@ header {
  .top_line a{
 	font-size: 21px;
 	border-bottom: #fff dashed 1px;
-	transform: ;
 }
 .top_line a:hover{
 	border-bottom: transparent 1px dashed;
@@ -223,7 +222,6 @@ section h2 {
 	position: relative;
 }
 .s_black h2::before {
-	content:;
 	position: absolute;
 	width: 50px;
 	height: 20px;
