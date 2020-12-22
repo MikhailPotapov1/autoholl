@@ -328,7 +328,7 @@ body .mc_wrap .mc_item_wrap ul {
 	width: 100%;
 	padding: 15px 0;
 	z-index: 10;
-	display: none;
+	display: ;
 }
 .mc_item_wrap.active ul li a:hover {
 	text-decoration: none;
